@@ -13,6 +13,6 @@ public @interface RpcService {
 
 	String value() default "";
 
-	Class<?> type();
+	Class<?>[] type() default {};
 
 }
